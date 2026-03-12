@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Títulos do Bahia</title>
+
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+
+<h1>Títulos do Bahia</h1>
+
+<div class="titulos">
+
+<div class="trofeu">
+<img src="{{ url_for('static', filename='taca88.png') }}">
+<h2>2</h2>
+<p>Campeonatos Brasileiros</p>
+</div>
+
+<div class="trofeu">
+<img src="{{ url_for('static', filename='copanordeste.png') }}">
+<h2>5</h2>
+<p>Copa do Nordeste</p>
+</div>
+
+<div class="trofeu">
+<img src="{{ url_for('static', filename='baiano.png') }}">
+<h2>52</h2>
+<p>Campeonatos Baianos</p>
+</div>
+
+</div>
+
+<a href="/" class="botao-voltar">Voltar para página inicial</a>
+
+</body>
+</html>

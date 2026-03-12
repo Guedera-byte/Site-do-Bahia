@@ -1,0 +1,166 @@
+body{
+    background-color:#002f6c;
+    color:white;
+    font-family: Verdana;
+    text-align:center;
+}
+
+.header{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:20px;
+}
+
+.logo{
+    width:80px;
+}
+
+.menu{
+    margin-top:20px;
+}
+
+.menu a{
+    color:white;
+    text-decoration:none;
+    margin:15px;
+    font-size:18px;
+}
+
+.menu{
+    background-color:#001f4d;
+    padding:15px;
+}
+
+.menu a:hover{
+    color:red;
+}
+
+.estadio{
+    width:600px;
+    margin-top:20px;
+    border-radius:10px;
+}
+
+p{
+    max-width:800px;
+    margin:auto;
+    text-align:center;
+    line-height:1.6;
+    font-size:18px;
+}
+
+.imagem{
+    width:500px;
+    display:block;
+    margin:20px auto;
+    border-radius:10px;
+}
+
+.titulos{
+    display:flex;
+    justify-content:center;
+    gap:60px;
+    margin-top:40px;
+    flex-wrap:wrap;
+}
+
+.trofeu{
+    text-align:center;
+    width:200px;
+    background-color:#001f4d;
+    padding:20px;
+    border-radius:10px;
+    transition: transform 0.3s;
+    box-shadow:0 0 10px rgba(0,0,0,0.4);
+}
+
+.trofeu:hover{
+    transform:scale(1.1);
+    box-shadow:0 0 20px rgba(0,0,0,0.7);
+}
+
+.trofeu img{
+    width:120px;
+    height:120px;
+    object-fit:contain;
+    transition: transform 0.3s;
+}
+
+.trofeu:hover img{
+    transform:rotate(-5deg) scale(1.1);
+}
+
+.trofeu h2{
+    font-size:40px;
+    margin:10px 0;
+}
+
+.trofeu p{
+    font-size:18px;
+}
+
+.elenco{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:30px;
+    margin-top:30px;
+}
+
+.jogador{
+    background-color:#001f4d;
+    padding:20px;
+    border-radius:10px;
+    width:180px;
+    text-align:center;
+    transition: transform 0.3s;
+    box-shadow:0 0 10px rgba(0,0,0,0.4);
+}
+
+.jogador:hover{
+    transform:scale(1.1);
+    box-shadow:0 0 20px rgba(0,0,0,0.7);
+}
+
+.jogador img{
+    width:120px;
+    border-radius:10px;
+}
+
+.jogador h3{
+    margin-top:10px;
+}
+
+.jogador p{
+    color:lightgray;
+}
+
+.botao-voltar{
+    display:inline-block;
+    margin-top:50px;
+    padding:12px 20px;
+    background-color:red;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+    font-weight:bold;
+}
+
+.historia-bloco{
+    display:flex;
+    align-items:flex;
+    justify-content:center;
+    gap:40px;
+    margin-top:2rem;
+}
+
+.texto{
+    max-width:600px;
+    text-align:center;
+}
+
+.imagem-historia{
+    width:350px;
+    border-radius:10px;
+}
